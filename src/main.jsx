@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "SinglePage/id",
+        path: "SinglePage/:id",
         element: <SinglePage />,
       },
     ],
